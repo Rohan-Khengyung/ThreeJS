@@ -59,7 +59,6 @@ function animate(){
 
     renderer.render(scene, camera);
 }
-
 // 8. Handle window resizing
 window.addEventListener('resize', () => {
       camera.aspect = window.innerWidth / window.innerHeight
